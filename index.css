@@ -1,0 +1,38 @@
+.body {
+  background-color: #eeeeee;
+}
+
+.box {
+  text-align: center;
+}
+
+.centered {
+  display: inline-block;
+  margin: 0;
+}
+
+.chess-board {
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+.chess-board tr td {
+  /* border: 1px solid; */
+  width: 5em;
+  height: 5em;
+  text-align: center;
+  vertical-align: middle;
+  background: #b58863;
+}
+
+.chess-board th {
+  padding: 10px 10px 0px 0px;
+}
+
+.chess-board tr:nth-child(odd) td:nth-child(even) {
+  background: #f0d9b5;
+}
+
+.chess-board tr:nth-child(even) td:nth-child(odd) {
+  background: #f0d9b5;
+}
